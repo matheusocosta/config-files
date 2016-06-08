@@ -1,0 +1,17 @@
+[user]
+	name = Matheus Costa
+	email = matheusoliveiracos@gmail.com
+[alias]
+	st = status
+	co = commit
+	a = add
+	ps = push
+	pl = pull
+	ck = checkout
+[core]
+	editor = atom --wait
+[color]
+	status = auto
+	branch = auto
+[github]
+	user = matheusocosta

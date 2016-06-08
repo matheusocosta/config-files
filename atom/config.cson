@@ -1,0 +1,33 @@
+"*":
+  core:
+    autoHideMenuBar: true
+  editor:
+    fontFamily: "Code New Roman, Consolas"
+    lineHeight: 1.7
+    scrollPastEnd: true
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "1a11fc28-505b-ae79-2419-88bebf92625a"
+  "file-icons":
+    coloured: false
+  "markdown-preview":
+    useGitHubStyle: true
+  minimap:
+    absoluteMode: true
+  "open-in-browsers":
+    IE: false
+    Opera: false
+    Safari: false
+  pigments:
+    markerType: "gutter"
+  "seti-icons":
+    noColor: true
+  "seti-syntax": {}
+  "seti-ui":
+    compactView: true
+    disableAnimations: true
+    font: "Default Atom Font"
+  "webbox-color":
+    fillColorAsBackground: false
+  welcome:
+    showOnStartup: false
