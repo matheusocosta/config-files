@@ -19,10 +19,16 @@
 .tree-view {}
 
 // style the background and foreground colors on the atom-text-editor-element itself
-atom-text-editor {}
+atom-text-editor {
+  background-color: #172626;
+}
 
-// To style other content in the text editor's shadow DOM, use the ::shadow expression
-atom-text-editor::shadow .cursor {}
+.tab-bar {
+  .tab,
+  .tab.active {
+    flex: 1;
+  }
+}
 
 atom-text-editor::shadow{
   .css {
@@ -48,6 +54,6 @@ atom-text-editor::shadow{
     }
   }
   .gutter {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
