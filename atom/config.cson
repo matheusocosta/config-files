@@ -1,6 +1,9 @@
 "*":
   core:
     autoHideMenuBar: true
+    disabledPackages: [
+      "seti-icons"
+    ]
   editor:
     fontFamily: "Code New Roman, Consolas"
     lineHeight: 1.7
@@ -18,15 +21,6 @@
     IE: false
     Opera: false
     Safari: false
-  pigments:
-    markerType: "gutter"
-  "seti-icons":
-    noColor: true
-  "seti-syntax": {}
-  "seti-ui":
-    compactView: true
-    disableAnimations: true
-    font: "Default Atom Font"
   "webbox-color":
     fillColorAsBackground: false
   welcome:
