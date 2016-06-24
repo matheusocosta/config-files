@@ -14,9 +14,12 @@
  * Examples
  * (To see them, uncomment and save)
  */
-
+@import "syntax-variables";
+@import "ui-variables";
 // style the background color of the tree view
-.tree-view {}
+.tree-view {
+  // background-color: whitesmoke;
+}
 
 // style the background and foreground colors on the atom-text-editor-element itself
 atom-text-editor {
@@ -32,19 +35,20 @@ atom-text-editor {
 
 atom-text-editor::shadow{
   .css {
-    .attribute-name {
-      font-style: italic;
-    }
+    // atribute and property name italic style
+    .attribute-name,
     .property-name {
       font-style: italic;
     }
   }
+
   .js {
     .storage.type,
     .variable.parameter {
       font-style: italic;
     }
   }
+
   .ruby {
     .variable.parameter {
       font-style: italic;
@@ -53,7 +57,12 @@ atom-text-editor::shadow{
       font-weight: bold;
     }
   }
+
   .gutter {
     margin-right: 5px;
+  }
+  // make the cursor pulse
+  .cursor {
+    transition: opacity .5s;
   }
 }

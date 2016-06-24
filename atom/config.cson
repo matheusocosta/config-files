@@ -4,6 +4,7 @@
     disabledPackages: [
       "seti-icons"
     ]
+    projectHome: "E:\\Projetos"
   editor:
     fontFamily: "Code New Roman, Consolas"
     lineHeight: 1.7
@@ -21,6 +22,8 @@
     IE: false
     Opera: false
     Safari: false
+  pigments:
+    markerType: "dot"
   "webbox-color":
     fillColorAsBackground: false
   welcome:
