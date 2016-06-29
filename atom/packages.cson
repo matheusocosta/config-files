@@ -1,0 +1,10 @@
+packages: [
+  "atom-jade"
+  "emmet"
+  "front-icons"
+  "minimap"
+  "open-in-browsers"
+  "open-terminal-here"
+  "package-sync"
+  "pigments"
+]
