@@ -1,15 +1,27 @@
 "*":
   core:
     autoHideMenuBar: true
-    disabledPackages: [
-      "seti-icons"
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "node_modules"
     ]
     projectHome: "E:\\Projetos"
+    themes: [
+      "one-dark-ui"
+      "twilight-seriously"
+    ]
   editor:
     fontFamily: "Code New Roman, Consolas"
-    lineHeight: 1.7
+    invisibles: {}
+    lineHeight: 1.6
     scrollPastEnd: true
     showIndentGuide: true
+    softWrap: true
   "exception-reporting":
     userId: "1a11fc28-505b-ae79-2419-88bebf92625a"
   "file-icons":
@@ -22,8 +34,12 @@
     IE: false
     Opera: false
     Safari: false
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   pigments:
     markerType: "dot"
+  "tree-view": {}
   "webbox-color":
     fillColorAsBackground: false
   welcome:
