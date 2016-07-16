@@ -1,4 +1,5 @@
 packages: [
+  "atom-alignment"
   "atom-jade"
   "emmet"
   "front-icons"
@@ -7,4 +8,6 @@ packages: [
   "open-terminal-here"
   "package-sync"
   "pigments"
+  "react-snippets"
+  "twilight-seriously"
 ]
