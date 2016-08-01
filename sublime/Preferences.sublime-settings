@@ -1,0 +1,25 @@
+{
+  "bold_folder_labels": true,
+  "color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+  "draw_white_space": "all",
+  "font_face": "Source Code Pro Medium",
+  "font_options":
+  [
+    "subpixel_antialias",
+    "directwrite",
+    "no_italic"
+  ],
+  "font_size": 11,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "line_padding_bottom": 2.5,
+  "line_padding_top": 2.5,
+  "scroll_past_end": true,
+  "tab_size": 2,
+  "word_wrap": true,
+  "translate_tabs_to_spaces": true,
+  "caret_style": "phase"
+}
