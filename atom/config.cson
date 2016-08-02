@@ -10,22 +10,26 @@
       "Thumbs.db"
       "node_modules"
     ]
-    projectHome: "E:\\Projetos"
+    projectHome: "E:/Projetos"
     themes: [
       "one-dark-ui"
       "twilight-seriously"
     ]
   editor:
     fontFamily: "Code New Roman, Consolas"
-    invisibles: {}
+    invisibles:
+      cr: " "
+      eol: " "
+      tab: " "
     lineHeight: 1.6
     scrollPastEnd: true
     showIndentGuide: true
+    showInvisibles: true
     softWrap: true
-  "exception-reporting":
-    userId: "1a11fc28-505b-ae79-2419-88bebf92625a"
   "file-icons":
     coloured: false
+  linter: {}
+  "linter-js-standard": {}
   "markdown-preview":
     useGitHubStyle: true
   minimap:
@@ -40,7 +44,5 @@
   pigments:
     markerType: "dot"
   "tree-view": {}
-  "webbox-color":
-    fillColorAsBackground: false
   welcome:
     showOnStartup: false

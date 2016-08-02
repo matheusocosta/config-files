@@ -1,0 +1,15 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Babel",
+		"Color Highlighter",
+		"Emmet",
+		"Package Control",
+		"Ruby Completions"
+	]
+}

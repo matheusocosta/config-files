@@ -19,7 +19,10 @@
 }
 
 // style the background and foreground colors on the atom-text-editor-element itself
-atom-text-editor { background-color: @background; }
+atom-text-editor {
+  background-color: @background;
+  text-rendering: optimizeLegibility;
+}
 
 .tab-bar {
   .tab,
@@ -63,6 +66,15 @@ atom-text-editor::shadow{
     transition: opacity .5s;
     border-left: 2px solid;
   }
+
   // i dont wanna see this
   .wrap-guide { display: none !important; }
+
+  .indent-guide {
+    color: #c5c8c6;
+    opacity: .2;
+  }
+  // .cursor-line .invisible-character {
+  //   opacity: 1;
+  // }
 }

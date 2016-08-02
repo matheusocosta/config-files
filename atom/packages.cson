@@ -1,8 +1,10 @@
 packages: [
   "atom-alignment"
-  "atom-jade"
   "emmet"
-  "front-icons"
+  "file-icons"
+  "language-pug"
+  "linter"
+  "linter-ruby"
   "minimap"
   "open-in-browsers"
   "open-terminal-here"
