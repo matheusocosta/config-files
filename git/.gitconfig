@@ -1,17 +1,18 @@
 [user]
-	name = Matheus Costa
-	email = matheusoliveiracos@gmail.com
+  name = Matheus Costa
+  email = matheusoliveiracos@gmail.com
 [alias]
-	st = status
-	co = commit
-	a = add
-	ps = push
-	pl = pull
-	ck = checkout
+  st = status
+  ci = commit
+  a = add
+  ps = push
+  pl = pull
+  co = checkout
+  this = !git init && git add . && git commit -m \"initial commit\"
 [core]
-	editor = atom --wait
+  editor = atom --wait
 [color]
-	status = auto
-	branch = auto
+  status = auto
+  branch = auto
 [github]
-	user = matheusocosta
+  user = matheusocosta
