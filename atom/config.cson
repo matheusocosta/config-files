@@ -10,13 +10,12 @@
       "Thumbs.db"
       "node_modules"
     ]
-    projectHome: "E:/Projetos"
     themes: [
       "one-dark-ui"
       "twilight-seriously"
     ]
   editor:
-    fontFamily: "Code New Roman, Consolas"
+    fontFamily: "Code New Roman"
     invisibles:
       cr: " "
       eol: " "
@@ -26,10 +25,10 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
+  "exception-reporting":
+    userId: "b591f3ba-2674-e115-91d7-918dfe083d83"
   "file-icons":
     coloured: false
-  linter: {}
-  "linter-js-standard": {}
   "markdown-preview":
     useGitHubStyle: true
   minimap:

@@ -3,6 +3,7 @@ packages: [
   "emmet"
   "file-icons"
   "language-pug"
+  "language-rust"
   "minimap"
   "open-in-browsers"
   "open-terminal-here"

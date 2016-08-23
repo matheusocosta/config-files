@@ -9,7 +9,10 @@
 		"Babel",
 		"Color Highlighter",
 		"Emmet",
+		"Handlebars",
+		"Jade",
 		"Package Control",
-		"Ruby Completions"
+		"Ruby Completions",
+		"Sass"
 	]
 }
