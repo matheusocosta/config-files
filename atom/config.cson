@@ -12,7 +12,7 @@
     ]
     themes: [
       "one-dark-ui"
-      "twilight-seriously"
+      "railscast-theme"
     ]
   editor:
     fontFamily: "Code New Roman"
