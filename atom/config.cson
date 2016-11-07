@@ -1,21 +1,13 @@
 "*":
   core:
     autoHideMenuBar: true
-    ignoredNames: [
-      ".git"
-      ".hg"
-      ".svn"
-      ".DS_Store"
-      "._*"
-      "Thumbs.db"
-      "node_modules"
-    ]
+    telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
       "railscast-theme"
     ]
   editor:
-    fontFamily: "Code New Roman"
+    fontFamily: "Hack"
     invisibles:
       cr: " "
       eol: " "
@@ -33,6 +25,8 @@
     useGitHubStyle: true
   minimap:
     absoluteMode: true
+  "one-dark-ui":
+    layoutMode: "Compact"
   "open-in-browsers":
     IE: false
     Opera: false
