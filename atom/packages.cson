@@ -1,7 +1,6 @@
 packages: [
   "atom-alignment"
   "emmet"
-  "file-icons"
   "language-pug"
   "language-rust"
   "minimap"
