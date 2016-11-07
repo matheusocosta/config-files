@@ -3,14 +3,14 @@
   "caret_style": "phase",
   "color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
   "draw_white_space": "all",
-  "font_face": "Fira Code",
+  "font_face": "Hack",
   "font_options":
   [
     "subpixel_antialias",
     "directwrite",
     "no_italic"
   ],
-  "font_size": 11,
+  "font_size": 10.5,
   "highlight_line": true,
   "ignored_packages":
   [
@@ -21,5 +21,11 @@
   "scroll_past_end": true,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
-  "word_wrap": true
+  "word_wrap": true,
+   "theme": "Boxy Monokai.sublime-theme",
+   "always_show_minimap_viewport": true,
+  "caret_extra_bottom": 1,
+  "caret_extra_top": 1,
+  "caret_extra_width": 1,
+  "overlay_scroll_bars": "enabled",
 }
