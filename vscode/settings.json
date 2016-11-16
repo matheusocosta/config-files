@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    "editor.cursorBlinking": "phase",
+    "editor.wordWrap": true,
+    "editor.renderIndentGuides": true,
+    "editor.fontLigatures": true,
+    "standard.enable": true,
+    "editor.selectionHighlight": false,
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "onFocusChange",
+    "editor.lineHeight": 24
+}
