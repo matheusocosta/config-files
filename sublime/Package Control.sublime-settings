@@ -6,15 +6,10 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
-		"Babel",
-		"Boxy Theme",
 		"Color Highlighter",
 		"Emmet",
-		"Handlebars",
-		"Jade",
 		"Package Control",
 		"RailsCasts Colour Scheme",
-		"Ruby Completions",
 		"Sass"
 	]
 }

@@ -1,15 +1,27 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "Hack",
-    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 15,
     "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
     "editor.cursorBlinking": "phase",
-    "editor.wordWrap": true,
+    "editor.wordWrap": "on",
     "editor.renderIndentGuides": true,
     "editor.fontLigatures": true,
-    "standard.enable": true,
     "editor.selectionHighlight": false,
+    "editor.minimap.enabled": true,
     "files.trimTrailingWhitespace": true,
     "files.autoSave": "onFocusChange",
-    "editor.lineHeight": 24
-}
+    "editor.lineHeight": 24,
+    "extensions.autoUpdate": true,
+    "workbench.welcome.enabled": false,
+    "workbench.colorTheme": "RailsCasts",
+    "workbench.iconTheme": "vs-nomo-dark",
+    "[cpp]": {
+      "editor.quickSuggestions": false
+    },
+    "[c]": {
+      "editor.quickSuggestions": false
+    },
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe"
+  }
