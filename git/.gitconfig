@@ -9,10 +9,8 @@
   pl = pull
   co = checkout
   this = !git init && git add . && git commit -m \"initial commit\"
-[core]
-  editor = atom --wait
 [color]
   status = auto
   branch = auto
 [github]
-  user = matheusocosta
+  user = mathocosta
