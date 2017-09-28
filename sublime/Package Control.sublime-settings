@@ -6,12 +6,16 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"AutoFileName",
+		"CodeComplice",
 		"Color Highlighter",
+		"DocBlockr",
 		"Emmet",
+		"GitGutter",
 		"Package Control",
-		"RailsCasts Colour Scheme",
+		"PlainTasks",
+		"ProjectManager",
 		"Sass",
-		"SideBarEnhancements",
-		"Theme - Spacegray"
+		"SideBarEnhancements"
 	]
 }
