@@ -11,13 +11,18 @@
     "editor.fontLigatures": true,
     "editor.selectionHighlight": false,
     "editor.minimap.enabled": true,
-    "files.autoSave": "onFocusChange",
-    "editor.lineHeight": 24,
+    "editor.lineHeight": 25,
+    "editor.snippetSuggestions": "top",
+    "editor.rulers": [
+      100
+    ],
     "extensions.autoUpdate": true,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "workbench.colorTheme": "Spacegray Eighties Dark",
-    "workbench.iconTheme": "vs-nomo-dark",
+    "files.trimTrailingWhitespace": true,
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
-    "window.menuBarVisibility": "toggle"
+    "window.menuBarVisibility": "toggle",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "php.validate.executablePath": "C:\\wamp64\\bin\\php\\php7.0.10\\php.exe",
+    "php.executablePath": "C:\\wamp64\\bin\\php\\php7.0.10\\php.exe",
+    "workbench.colorTheme": "Spacegray Eighties Dark"
   }

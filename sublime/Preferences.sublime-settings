@@ -6,20 +6,15 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark.tmTheme",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
 	"draw_white_space": "all",
-	"font_face": "Roboto Mono",
+	"font_face": "Cousine",
 	"font_options":
 	[
-		"gray_antialias",
-		"directwrite",
 		"gdi"
 	],
 	"font_size": 11,
 	"highlight_line": true,
-	"ignored_packages":
-	[
-	],
 	"indent_guide_options":
 	[
 		"draw_normal",
@@ -37,6 +32,5 @@
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"vintage_start_in_command_mode": true,
 	"word_wrap": true
 }
