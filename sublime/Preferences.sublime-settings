@@ -6,15 +6,19 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
+	"color_scheme": "Packages/Base16 Color Schemes/Themes/base16-gruvbox-dark-medium.tmTheme",
 	"draw_white_space": "all",
-	"font_face": "Cousine",
+	"font_face": "Consolas",
 	"font_options":
 	[
 		"gdi"
 	],
 	"font_size": 11,
 	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"indent_guide_options":
 	[
 		"draw_normal",
