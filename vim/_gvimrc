@@ -1,0 +1,13 @@
+" Tudo relacionado ao GVIM
+set guioptions-=m
+set guioptions-=r  " Remove a scroll bar da direita
+set guioptions-=L  " Remove a scroll bar da esquerda
+set guioptions-=T
+au GUIEnter * simalt ~x
+set clipboard=unnamed
+
+if has('autocmd')
+  autocmd GUIEnter * set visualbell t_vb=
+endif
+
+

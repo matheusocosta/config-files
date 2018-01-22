@@ -1,0 +1,95 @@
+" PLUGINS
+call plug#begin('~/vimfiles/bundle')
+
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeFind' }
+Plug 'scrooloose/nerdcommenter'
+Plug 'morhetz/gruvbox'
+Plug 'airblade/vim-gitgutter'
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-sensible'
+Plug 'jiangmiao/auto-pairs'
+Plug 'junegunn/goyo.vim'
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-notes'
+Plug 'pangloss/vim-javascript'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'Yggdroot/indentLine'
+Plug 'fatih/vim-go'
+
+call plug#end()
+
+" CONFIGURAÇÃO DE TEXTO
+" set guifont=Fira\ Code:h11
+set guifont=Consolas:h11
+set encoding=utf-8
+
+" INDENTAÇÃO
+set autoindent
+set smartindent
+set smarttab
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
+
+" NUMERAÇÃO, RÉGUA
+set linebreak
+set relativenumber
+set number
+set ruler
+set cursorline
+
+set nocompatible
+set wildmenu
+set t_Co=256
+syntax on
+filetype plugin on
+filetype indent on 
+set noerrorbells
+
+" DISPLAY TABS AND TRAILING SPACES VISUALLY
+set list listchars=tab:\ \ ,trail:·
+
+" CONFIGURAÇÕES DE PESQUISA
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+
+" DESABILITAR BACKUP
+set nobackup
+set noswapfile
+set nowritebackup
+
+" CONFIGURAÇÃO DE PLUGINS
+" CtrlP
+set runtimepath^=~/vimfiles/bundle/ctrlp.vim
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
+
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='minimalist'
+
+" vim-notes
+" Configuração do diretório baseado no sistema
+if has('win32') 
+  let g:notes_directories = [ '~/OneDrive/Documentos/Notes' ] 
+endif
+let g:notes_suffix = '.txt'
+
+" indentLine
+let g:indentLine_leadingSpaceChar='·'
+let g:indentLine_leadingSpaceEnabled=1
+let g:indentLine_char='¦'
+
+" THEMES
+set background=dark
+let g:gruvbox_bold=0
+let g:gruvbox_italic=0
+colorscheme gruvbox
+
+" KEY MAPPING
+map <silent> <C-Tab> :bn<CR>
+map <silent> <Leader>nt :NERDTreeFind<CR>
+map <silent> <Leader>cc :NERDComToggleComment<CR>
+
