@@ -7,16 +7,18 @@
 	[
 		"All Autocomplete",
 		"AutoFileName",
-		"Base16 Color Schemes",
 		"CodeComplice",
 		"Color Highlighter",
 		"DocBlockr",
+		"Dracula Color Scheme",
 		"Emmet",
 		"GitGutter",
+		"Hide Menu",
 		"Package Control",
 		"PlainTasks",
 		"ProjectManager",
 		"Sass",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"Theme - Spacegray"
 	]
 }

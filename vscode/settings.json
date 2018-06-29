@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "Roboto Mono",
     "editor.fontSize": 14,
     "editor.tabSize": 2,
     "editor.autoIndent": true,
@@ -16,13 +16,23 @@
     "editor.rulers": [
       100
     ],
-    "extensions.autoUpdate": true,
+    "explorer.decorations.badges": false,
+    "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
     "window.menuBarVisibility": "toggle",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "php.validate.executablePath": "C:\\wamp64\\bin\\php\\php7.0.10\\php.exe",
-    "php.executablePath": "C:\\wamp64\\bin\\php\\php7.0.10\\php.exe",
-    "workbench.colorTheme": "Spacegray Eighties Dark"
+    "workbench.activityBar.visible": false,
+    "search.useIgnoreFiles": false,
+    // Go Config
+    "go.inferGopath": true,
+    // PHP Config
+    "php.executablePath": "C:\\wamp64\\bin\\php\\php7.1.9\\php.exe",
+    "phpformatter.composer": true,
+    // Testando
+    "editor.lineNumbers": "off",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "materialTheme.fixIconsRunning": false,
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
   }

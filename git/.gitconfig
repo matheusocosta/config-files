@@ -1,6 +1,6 @@
 [user]
-  name = Matheus Costa
-  email = matheusoliveiracos@gmail.com
+	name = Matheus Oliveira Costa
+	email = matheusoliveiracos@gmail.com
 [alias]
   st = status
   ci = commit
@@ -14,3 +14,11 @@
   branch = auto
 [github]
   user = mathocosta
+[core]
+  autocrlf = true
+  excludesfile =
+[gui]
+  encoding = utf-8
+[i18n]
+  commitencoding = utf-8
+  logoutputencoding = utf-8
