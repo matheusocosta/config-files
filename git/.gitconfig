@@ -1,6 +1,6 @@
 [user]
-	name = Matheus Oliveira Costa
-	email = matheusoliveiracos@gmail.com
+  name = Matheus Oliveira Costa
+  email = matheusoliveiracos@gmail.com
 [alias]
   st = status
   ci = commit
@@ -8,7 +8,7 @@
   ps = push
   pl = pull
   co = checkout
-  this = !git init && git add . && git commit -m \"initial commit\"
+  this = !git init && git add . && git commit -m \"First commit\"
 [color]
   status = auto
   branch = auto
@@ -16,7 +16,7 @@
   user = mathocosta
 [core]
   autocrlf = true
-  excludesfile =
+  excludesfile = C:/Users/Matheus/.gitignore_global
 [gui]
   encoding = utf-8
 [i18n]

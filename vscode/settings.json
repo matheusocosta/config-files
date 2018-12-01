@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "Roboto Mono",
-    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 15,
     "editor.tabSize": 2,
     "editor.autoIndent": true,
     "editor.renderWhitespace": "boundary",
@@ -13,26 +13,29 @@
     "editor.minimap.enabled": true,
     "editor.lineHeight": 25,
     "editor.snippetSuggestions": "top",
+    "editor.lineNumbers": "off",
     "editor.rulers": [
       100
     ],
+    "diffEditor.ignoreTrimWhitespace": true,
     "explorer.decorations.badges": false,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
-    "window.menuBarVisibility": "toggle",
-    "workbench.activityBar.visible": false,
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "last",
     "search.useIgnoreFiles": false,
-    // Go Config
-    "go.inferGopath": true,
-    // PHP Config
-    "php.executablePath": "C:\\wamp64\\bin\\php\\php7.1.9\\php.exe",
-    "phpformatter.composer": true,
-    // Testando
-    "editor.lineNumbers": "off",
-    "diffEditor.ignoreTrimWhitespace": true,
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
-    "materialTheme.fixIconsRunning": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "editor.renderLineHighlight": "all",
+    "editor.letterSpacing": 0.5,
     "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "window.menuBarVisibility": "toggle",
+    "window.smoothScrollingWorkaround": true,
+    "workbench.statusBar.feedback.visible": false,
+    "explorer.openEditors.visible": 0,
+    "php.suggest.basic": false,
+    "php.executablePath": "C:\\xampp\\php\\php.exe"
   }

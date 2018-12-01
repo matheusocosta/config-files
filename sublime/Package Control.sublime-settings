@@ -5,20 +5,25 @@
 	],
 	"installed_packages":
 	[
+		"Alignment",
 		"All Autocomplete",
 		"AutoFileName",
+		"Babel",
+		"BracketHighlighter",
 		"CodeComplice",
-		"Color Highlighter",
 		"DocBlockr",
 		"Dracula Color Scheme",
+		"EditorConfig",
 		"Emmet",
 		"GitGutter",
+		"GitStatusBar",
 		"Hide Menu",
+		"Material Theme",
 		"Package Control",
 		"PlainTasks",
 		"ProjectManager",
 		"Sass",
 		"SideBarEnhancements",
-		"Theme - Spacegray"
+		"WordPress",
 	]
 }
