@@ -1,0 +1,38 @@
+" PLUGINS
+call plug#begin('~/.vim/bundle')
+
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeFind' }
+Plug 'scrooloose/nerdcommenter'
+Plug 'morhetz/gruvbox'
+Plug 'airblade/vim-gitgutter'
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-sensible'
+Plug 'jiangmiao/auto-pairs'
+Plug 'junegunn/goyo.vim'
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-notes'
+Plug 'pangloss/vim-javascript'
+Plug 'vim-airline/vim-airline-themes'
+
+call plug#end()
+
+" CONFIGURATIONS
+" CtrlP
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
+
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='minimalist'
+
+" vim-notes
+" Configuração do diretório baseado no sistema
+if has('win32')
+  let g:notes_directories = [ '~/OneDrive/Documentos/Notes' ]
+endif
+let g:notes_suffix = '.txt'
+
+" indentLine
+let g:indentLine_leadingSpaceChar='·'
+let g:indentLine_leadingSpaceEnabled=1
+let g:indentLine_char='¦'
