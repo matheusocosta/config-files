@@ -18,6 +18,7 @@
 		"GitGutter",
 		"GitStatusBar",
 		"Hide Menu",
+		"Laravel Blade Highlighter",
 		"Material Theme",
 		"Package Control",
 		"PlainTasks",
@@ -25,5 +26,6 @@
 		"Sass",
 		"SideBarEnhancements",
 		"WordPress",
+		"WordPress Customizer"
 	]
 }
